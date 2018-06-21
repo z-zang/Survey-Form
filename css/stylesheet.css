@@ -1,0 +1,71 @@
+/* Colors for this theme
+grey/black: #474747, #333
+accents:
+  red: #fc5c65
+  orange: #fd9644
+  yellow: #fed330
+  green: #26de81
+  blue: #45aaf2
+  darkblue: #4b7bec
+*/
+
+body{
+  background-color: #78e08f;
+  padding: auto;
+}
+
+h1{
+  text-align: center;
+  margin: 20px 0px;
+}
+
+p, label, ul{
+  margin: 2px;
+  padding: 0;
+}
+
+.description{
+  text-align: center;
+  grid-area: 1/1/2/3;
+}
+
+.endcomment{
+  text-align: center;
+  grid-area: 9/1/10/3;
+}
+
+.submit{
+  grid-area: 10/1/11/3;
+  text-align: center;
+}
+
+.q{
+  justify-self: end;
+  text-align: right;
+}
+
+.a{
+  justify-self: start;
+  align-self: center;
+}
+
+.main-style{
+  width: 80vw;
+  margin: auto;
+  padding: 30px;
+  background-color: #FFF;
+
+  /* grid formatting */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px 30px;
+}
+
+.footer-style{
+  width: 100%;
+  margin: 10px 0px;
+  text-align: center;
+  background-color: ;
+  opacity: 0.9;
+}
